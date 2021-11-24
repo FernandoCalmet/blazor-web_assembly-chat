@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ic0WN6L32kPjazLHxXHyAmWOjnuohEUn+EzpbQhdPoPK1BuHfXZ22pab0SYUeGmOIk6S3u0/1/cMFvMM5L5LQg==",
+  "dgSpecHash": "unfqjLruodWLkiqY7KV3X+g/gQPSD3CJRDoifU6XS6ayTvF55+wu/uDZLNNOWMTHt/GbKa3Podhv3r7xwVpFrg==",
   "success": true,
-  "projectFilePath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Server\\ChatBlazorWebApp.Server.csproj",
+  "projectFilePath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Server\\ChatBlazorWebApp.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I7\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\I7\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

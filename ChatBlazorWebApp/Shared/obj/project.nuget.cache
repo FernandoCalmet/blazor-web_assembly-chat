@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nBu6WYNg9KcqkFKwyJIAsfMYbgyJxGqRFKi6dGbJV8WLrjF5vAexR5wftqfd5UG1YZBBVFxk+w3TW/eAfvvuNw==",
+  "dgSpecHash": "anBMsZNH1Wm/yPYyEFalMqSyjekpsthTvtm8POol8gh6QufE974wFEztBaz29XG8a68b1CJwQbbQpaK+7+CaAQ==",
   "success": true,
-  "projectFilePath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj",
+  "projectFilePath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I7\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",
     "C:\\Users\\I7\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.12\\microsoft.aspnetcore.cryptography.keyderivation.5.0.12.nupkg.sha512",

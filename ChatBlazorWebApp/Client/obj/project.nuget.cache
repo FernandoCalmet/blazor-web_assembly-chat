@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4t0Gw9dJHekxptxqUPeT8hvouvYebbAbI2TWzKy65VNRlpvmSGeGg5lL29Y9iSvNi+Kfi4HQLk1S+AQoz2aG8A==",
+  "dgSpecHash": "BF/1zfelzxxqzHL0I3dn1pDF5VsmQgI9rQQs/U+A6tw2LIX5SykCAhwnPNsdOYNQ4BRup98kE31jBSldDfB3vw==",
   "success": true,
-  "projectFilePath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Client\\ChatBlazorWebApp.Client.csproj",
+  "projectFilePath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Client\\ChatBlazorWebApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I7\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.12\\microsoft.aspnetcore.authorization.5.0.12.nupkg.sha512",
     "C:\\Users\\I7\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.12\\microsoft.aspnetcore.components.5.0.12.nupkg.sha512",

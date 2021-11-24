@@ -2468,11 +2468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Client\\ChatBlazorWebApp.Client.csproj",
+      "projectUniqueName": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Client\\ChatBlazorWebApp.Client.csproj",
       "projectName": "ChatBlazorWebApp.Client",
-      "projectPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Client\\ChatBlazorWebApp.Client.csproj",
+      "projectPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Client\\ChatBlazorWebApp.Client.csproj",
       "packagesPath": "C:\\Users\\I7\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Client\\obj\\",
+      "outputPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2493,8 +2493,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj": {
-              "projectPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj"
+            "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj": {
+              "projectPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj"
             }
           }
         }

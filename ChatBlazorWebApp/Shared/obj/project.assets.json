@@ -747,11 +747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj",
+      "projectUniqueName": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj",
       "projectName": "ChatBlazorWebApp.Shared",
-      "projectPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj",
+      "projectPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Shared\\ChatBlazorWebApp.Shared.csproj",
       "packagesPath": "C:\\Users\\I7\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\ChatBlazorWebApp\\Shared\\obj\\",
+      "outputPath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

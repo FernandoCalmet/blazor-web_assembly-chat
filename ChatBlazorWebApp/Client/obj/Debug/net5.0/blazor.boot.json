@@ -217,12 +217,13 @@
       "mscorlib.dll": "sha256-+dB3Q0YubUPF1oZDMVZn6ZCiRkzRomtLoq51T5FocJk=",
       "netstandard.dll": "sha256-dOHF0zANIyA4WS496iWrAkTuEFWSWrXJjZj2pQQHrMA=",
       "System.Private.CoreLib.dll": "sha256-C96+zv+mWW0XzMG520oRgAG1lHVY8xzWGc6oc6rFjws=",
-      "ChatBlazorWebApp.Shared.dll": "sha256-ezDoQ9nf2isFHMZtRDem8K9FZJ9ACTCfxLFdtLT\/l\/k=",
-      "ChatBlazorWebApp.Client.dll": "sha256-dCYBVvPSL1ADNag4AHEk7l7+kxnV0kO3RgorBdsBDRA="
+      "ChatBlazorWebApp.Shared.dll": "sha256-eAeZwJwCJp6vAovQtCAKhUZ3btCsg9lU5OgJFQy6aB0=",
+      "ChatBlazorWebApp.Client.dll": "sha256-ZoIptkoUrdSOo\/XW+Gm3bXzwBcud2nlmh0YsnsUhxxU="
     },
     "lazyAssembly": null,
     "pdb": {
-      "ChatBlazorWebApp.Client.pdb": "sha256-AyP2mLkm0L2xGhhBEqVqmoLAQmisKn6cMPWHqqVFy+A="
+      "ChatBlazorWebApp.Shared.pdb": "sha256-n2OUZdi8hy3JfAhVu8raD5EXVPEVzFE9Htz1zGmqgLE=",
+      "ChatBlazorWebApp.Client.pdb": "sha256-mo9+2lXTIa1aIR0vpGt7lshqB0LlpQL+3PvIr8AG3\/c="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-ir9YCVnnk7popgsYUkvitfGA4WpkP1ydPh\/ENHnxGys=",
