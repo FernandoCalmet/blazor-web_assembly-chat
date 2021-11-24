@@ -1,0 +1,12 @@
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\bin\Debug\net5.0\ChatBlazorWebApp.Shared.deps.json
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\bin\Debug\net5.0\ChatBlazorWebApp.Shared.dll
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\bin\Debug\net5.0\ref\ChatBlazorWebApp.Shared.dll
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\bin\Debug\net5.0\ChatBlazorWebApp.Shared.pdb
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\obj\Debug\net5.0\ChatBlazorWebApp.Shared.csproj.AssemblyReference.cache
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\obj\Debug\net5.0\ChatBlazorWebApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\obj\Debug\net5.0\ChatBlazorWebApp.Shared.AssemblyInfoInputs.cache
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\obj\Debug\net5.0\ChatBlazorWebApp.Shared.AssemblyInfo.cs
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\obj\Debug\net5.0\ChatBlazorWebApp.Shared.csproj.CoreCompileInputs.cache
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\obj\Debug\net5.0\ChatBlazorWebApp.Shared.dll
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\obj\Debug\net5.0\ref\ChatBlazorWebApp.Shared.dll
+D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\ChatBlazorWebApp\Shared\obj\Debug\net5.0\ChatBlazorWebApp.Shared.pdb
