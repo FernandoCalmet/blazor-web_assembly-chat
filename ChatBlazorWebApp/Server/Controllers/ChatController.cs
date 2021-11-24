@@ -23,6 +23,7 @@ namespace ChatBlazorWebApp.Server.Controllers
             _userManager = userManager;
             _context = context;
         }
+
         [HttpGet("{contactId}")]
         public async Task<IActionResult> GetConversationAsync(string contactId)
         {
@@ -44,6 +45,7 @@ namespace ChatBlazorWebApp.Server.Controllers
                     }).ToListAsync();
             return Ok(messages);
         }
+
         [HttpGet("users")]
         public async Task<IActionResult> GetUsersAsync()
         {
@@ -51,12 +53,14 @@ namespace ChatBlazorWebApp.Server.Controllers
             var allUsers = await _context.Users.Where(user => user.Id != userId).ToListAsync();
             return Ok(allUsers);
         }
+
         [HttpGet("users/{userId}")]
         public async Task<IActionResult> GetUserDetailsAsync(string userId)
         {
             var user = await _context.Users.Where(user => user.Id == userId).FirstOrDefaultAsync();
             return Ok(user);
         }
+
         [HttpPost]
         public async Task<IActionResult> SaveMessageAsync(ChatMessage message)
         {
