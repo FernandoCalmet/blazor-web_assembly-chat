@@ -120,41 +120,41 @@ using Microsoft.AspNetCore.SignalR.Client;
 #nullable restore
 #line 27 "D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\Client\Shared\MainLayout.razor"
         bool _drawerOpen = false;
-            private string CurrentUserId { get; set; }
-            void DrawerToggle()
+    private string CurrentUserId { get; set; }
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+    private HubConnection hubConnection;
+    public bool IsConnected => hubConnection.State == HubConnectionState.Connected;
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder().WithUrl(_navigationManager.ToAbsoluteUri("/signalRHub")).Build();
+        await hubConnection.StartAsync();
+        hubConnection.On<string, string, string>("ReceiveChatNotification", (message, receiverUserId, senderUserId) =>
+        {
+            if (CurrentUserId == receiverUserId)
             {
-                _drawerOpen = !_drawerOpen;
-            }
-            private HubConnection hubConnection;
-            public bool IsConnected => hubConnection.State == HubConnectionState.Connected;
-            protected override async Task OnInitializedAsync()
-            {
-                hubConnection = new HubConnectionBuilder().WithUrl(_navigationManager.ToAbsoluteUri("/signalRHub")).Build();
-                await hubConnection.StartAsync();
-                hubConnection.On<string, string, string>("ReceiveChatNotification", (message, receiverUserId, senderUserId) =>
+                _jsRuntime.InvokeAsync<string>("PlayAudio", "notification");
+                _snackBar.Add(message, Severity.Info, config =>
                 {
-                    if (CurrentUserId == receiverUserId)
+                    config.VisibleStateDuration = 10000;
+                    config.HideTransitionDuration = 500;
+                    config.ShowTransitionDuration = 500;
+                    config.Action = "Chat?";
+                    config.ActionColor = Color.Info;
+                    config.Onclick = snackbar =>
                     {
-                        _jsRuntime.InvokeAsync<string>("PlayAudio", "notification");
-                        _snackBar.Add(message, Severity.Info, config =>
-                                        {
-                                            config.VisibleStateDuration = 10000;
-                                            config.HideTransitionDuration = 500;
-                                            config.ShowTransitionDuration = 500;
-                                            config.Action = "Chat?";
-                                            config.ActionColor = Color.Info;
-                                            config.Onclick = snackbar =>
-                                    {
-                                _navigationManager.NavigateTo($"chat/{senderUserId}");
-                                return Task.CompletedTask;
-                            };
-                                        });
-                    }
+                        _navigationManager.NavigateTo($"chat/{senderUserId}");
+                        return Task.CompletedTask;
+                    };
                 });
-                var state = await _stateProvider.GetAuthenticationStateAsync();
-                var user = state.User;
-                CurrentUserId = user.Claims.Where(a => a.Type == "sub").Select(a => a.Value).FirstOrDefault();
-            } 
+            }
+        });
+        var state = await _stateProvider.GetAuthenticationStateAsync();
+        var user = state.User;
+        CurrentUserId = user.Claims.Where(a => a.Type == "sub").Select(a => a.Value).FirstOrDefault();
+    }
 
 #line default
 #line hidden

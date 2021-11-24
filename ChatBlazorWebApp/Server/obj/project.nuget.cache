@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "unfqjLruodWLkiqY7KV3X+g/gQPSD3CJRDoifU6XS6ayTvF55+wu/uDZLNNOWMTHt/GbKa3Podhv3r7xwVpFrg==",
+  "dgSpecHash": "zT4Fvcz9e7rn42hTVOeiVpiAlrkSlu2tY8ShWypKPWU/oQxgya56GQpFGpoSZpu3j02q+cU8I/M4mNzP+RBe3w==",
   "success": true,
   "projectFilePath": "D:\\Github\\FernandoCalmet\\CS-Blazor-Chat\\ChatBlazorWebApp\\Server\\ChatBlazorWebApp.Server.csproj",
   "expectedPackageFiles": [

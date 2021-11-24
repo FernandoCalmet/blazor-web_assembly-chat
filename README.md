@@ -36,6 +36,12 @@ Clonar el repositorio.
 gh repo clone FernandoCalmet/CS-Blazor-Chat
 ```
 
+Actualizar los paquetes actuales
+
+```bash
+update-package
+```
+
 Crear la migración de base de datos
 
 ```bash
