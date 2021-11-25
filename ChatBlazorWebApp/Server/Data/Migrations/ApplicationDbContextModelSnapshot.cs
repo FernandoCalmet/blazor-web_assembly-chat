@@ -19,7 +19,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
                 .HasAnnotation("ProductVersion", "5.0.3")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("BlazorChat.Server.Models.ApplicationUser", b =>
+            modelBuilder.Entity("ChatBlazorWebApp.Server.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -84,7 +84,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("BlazorChat.Server.Models.ChatMessage", b =>
+            modelBuilder.Entity("ChatBlazorWebApp.Server.Models.ChatMessage", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -350,13 +350,13 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("BlazorChat.Server.Models.ChatMessage", b =>
+            modelBuilder.Entity("ChatBlazorWebApp.Server.Models.ChatMessage", b =>
                 {
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", "FromUser")
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", "FromUser")
                         .WithMany("ChatMessagesFromUsers")
                         .HasForeignKey("FromUserId");
 
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", "ToUser")
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", "ToUser")
                         .WithMany("ChatMessagesToUsers")
                         .HasForeignKey("ToUserId");
 
@@ -376,7 +376,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", null)
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -385,7 +385,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", null)
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -400,7 +400,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", null)
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -409,14 +409,14 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", null)
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("BlazorChat.Server.Models.ApplicationUser", b =>
+            modelBuilder.Entity("ChatBlazorWebApp.Server.Models.ApplicationUser", b =>
                 {
                     b.Navigation("ChatMessagesFromUsers");
 

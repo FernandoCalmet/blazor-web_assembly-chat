@@ -119,7 +119,8 @@ using Microsoft.AspNetCore.SignalR.Client;
         #pragma warning restore 1998
 #nullable restore
 #line 27 "D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\Client\Shared\MainLayout.razor"
-        bool _drawerOpen = false;
+       
+    bool _drawerOpen = false;
     private string CurrentUserId { get; set; }
     void DrawerToggle()
     {

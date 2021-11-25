@@ -118,8 +118,9 @@ using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 21 "D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\Client\Shared\LoginDisplay.razor"
-       private async Task BeginSignOut(MouseEventArgs args)
+#line 19 "D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\Client\Shared\LoginDisplay.razor"
+      
+    private async Task BeginSignOut(MouseEventArgs args)
     {
         await SignOutManager.SetSignOutState();
         Navigation.NavigateTo("authentication/logout");

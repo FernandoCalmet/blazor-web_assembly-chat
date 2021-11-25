@@ -119,7 +119,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 5 "D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\Client\Pages\Authentication.razor"
+#line 4 "D:\Github\FernandoCalmet\CS-Blazor-Chat\ChatBlazorWebApp\Client\Pages\Authentication.razor"
       
     [Parameter] public string Action { get; set; }
 

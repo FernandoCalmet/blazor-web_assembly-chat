@@ -21,7 +21,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0-rc.1.20417.2");
 
-            modelBuilder.Entity("BlazorChat.Server.Models.ApplicationUser", b =>
+            modelBuilder.Entity("ChatBlazorWebApp.Server.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -335,7 +335,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", null)
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -344,7 +344,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", null)
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -359,7 +359,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", null)
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -368,7 +368,7 @@ namespace ChatBlazorWebApp.Server.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("BlazorChat.Server.Models.ApplicationUser", null)
+                    b.HasOne("ChatBlazorWebApp.Server.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
