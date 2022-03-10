@@ -33,7 +33,7 @@ Este proyecto es una muestra de una aplicación web con chat en tiempo real. Se 
 Clonar el repositorio.
 
 ```bash
-gh repo clone FernandoCalmet/CS-Blazor-Chat
+gh repo clone FernandoCalmet/Blazor-WebAssembly-Chat
 ```
 
 Actualizar los paquetes actuales
